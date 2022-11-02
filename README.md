@@ -1,2 +1,2 @@
 # gamejam-collab
-C# &amp; Lua
+Java, Javascript, C# &amp; Lua
