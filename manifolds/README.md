@@ -9,35 +9,31 @@ Enquanto a Fnord Dynamics calcula as forças e o Gambit Engine projeta os pixels
 
 ## 🗂️ Estrutura Taxonômica
 
+Aqui está o trecho formatado em Markdown, pronto para ser inserido no seu README:
+
+***
+
 Os projetos são segregados pela natureza do seu espaço vetorial:
 
-- flatland/ (2D Euclidean)
+### `flatland/` (2D Euclidean)
 Projeções bidimensionais estritas.
+* **Foco:** Sprites, UI, Shaders de Pixel, Autômatos Celulares Planos.
+* **Engine Profile:** Gambit 2D Renderer (Orthographic Camera).
 
-Foco: Sprites, UI, Shaders de Pixel, Autômatos Celulares Planos.
-
-Engine Profile: Gambit 2D Renderer (Orthographic Camera).
-
-- voxels/ (2.5D / Discrete 3D)
+### `voxels/` (2.5D / Discrete 3D)
 Espaços volumétricos discretos ou projeções isométricas.
+* **Foco:** Grids táticos, *Raymarching*, Estética Low-Poly, Estruturas de Dados Octree.
+* **Engine Profile:** Hibridismo (Física Fnord discreta + Render Gambit Isométrico).
 
-Foco: Grids táticos, Raymarching, Estética Low-Poly, Estruturas de Dados Octree.
+### `hyperreal/` (3D Continuous)
+Simulações tridimensionais de alta fidelidade e *continuum mechanics*.
+* **Foco:** PBR (Physically Based Rendering), Cinemática Inversa (IK), Fluidos, Iluminação Global.
+* **Engine Profile:** Fnord Dynamics (High-Dim Solver) + Gambit (Perspective Camera).
 
-Engine Profile: Hibridismo (Física Fnord discreta + Render Gambit Isométrico).
-
-- hyperreal/ (3D Continuous)
-Simulações tridimensionais de alta fidelidade e continuum mechanics.
-
-Foco: PBR (Physically Based Rendering), Cinemática Inversa (IK), Fluidos, Iluminação Global.
-
-Engine Profile: Fnord Dynamics (High-Dim Solver) + Gambit (Perspective Camera).
-
-- abstract/ (Non-Euclidean / n-Dimensional)
+### `abstract/` (Non-Euclidean / n-Dimensional)
 Experimentos que desafiam a geometria convencional.
-
-Foco: Geometria Hiperbólica, Visualização de 4D+, Espaços Recursivos.
-
-Engine Profile: Uso intensivo do namespace HodgePodge para projeções matemáticas experimentais.
+* **Foco:** Geometria Hiperbólica, Visualização de 4D+, Espaços Recursivos.
+* **Engine Profile:** Uso intensivo do namespace `HodgePodge` para projeções matemáticas experimentais.
 
 ---
 
